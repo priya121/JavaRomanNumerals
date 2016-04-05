@@ -1,11 +1,16 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class RomanNumerals {
+    List<Integer> digits = Arrays.asList(1, 2, 3);
+    List<String> numerals = Arrays.asList("I", "II", "III");
+
+
     public String convert(int digit) {
-        if (digit == 1) {
-            return "I";
-        } else if (digit == 2) {
-            return "II";
-        } else if (digit == 3) {
-            return "III";
+        for (int i = 0; i < digits.size(); i++) {
+            if (digits.get(i) == digit) {
+                return numerals.get(i);
+            }
         }
         return "";
     }
