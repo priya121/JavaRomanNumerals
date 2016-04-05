@@ -15,4 +15,10 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("I", romanNumerals.convert(1));
     }
+
+    @Test
+    public void converts2toII() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("II", romanNumerals.convert(2));
+    }
 }
