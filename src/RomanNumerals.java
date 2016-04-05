@@ -4,6 +4,8 @@ public class RomanNumerals {
             return "I";
         } else if (digit == 2) {
             return "II";
+        } else if (digit == 3) {
+            return "III";
         }
         return "";
     }
