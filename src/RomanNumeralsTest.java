@@ -29,4 +29,29 @@ public class RomanNumeralsTest {
     public void convert4toIV() {
         assertEquals("IV", romanNumerals.convert(4));
     }
+    
+    @Test
+    public void converts5toV() {
+        assertEquals("V", romanNumerals.convert(5));
+    }
+
+    @Test
+    public void converts6toVI() {
+        assertEquals("VI", romanNumerals.convert(6));
+    }
+
+    @Test
+    public void converts8toVIII() {
+        assertEquals("VIII", romanNumerals.convert(8));
+    }
+
+    @Test
+    public void converts9toIX() {
+        assertEquals("IX", romanNumerals.convert(9));
+    }
+
+    @Test
+    public void converts10toX() {
+        assertEquals("X", romanNumerals.convert(10));
+    }
 }

@@ -2,8 +2,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class RomanNumerals {
-    List<Integer> digits = Arrays.asList(4, 1);
-    List<String> numerals = Arrays.asList("IV", "I");
+    List<Integer> digits = Arrays.asList(10, 9, 5, 4, 1);
+    List<String> numerals = Arrays.asList("X", "IX", "V", "IV", "I");
 
 
     public String convert(int digit) {
